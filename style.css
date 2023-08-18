@@ -40,9 +40,12 @@
 }
 
 /* Global styles */
+html,
 body {
-  display: flex;
-  justify-content: stretch;
+  height: 100%;
+}
+
+body {
   /* Typography */
   font-family: "Inter", sans-serif;
   line-height: 1.4;
@@ -56,6 +59,7 @@ body {
 
 main {
   /* Layout */
+  height: 100%;
   max-width: var(--grid-max-width);
   padding: var(--grid-gutter);
   display: flex;
