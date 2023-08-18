@@ -41,7 +41,7 @@
 
 /* Global styles */
 body {
-    display: flex;
+  display: flex;
   justify-content: stretch;
   /* Typography */
   font-family: "Inter", sans-serif;
