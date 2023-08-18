@@ -54,7 +54,6 @@ body {
   /* Colour */
   background: var(--bg-color);
   color: var(--txt-color);
-  overflow: hidden;
 }
 
 main {
