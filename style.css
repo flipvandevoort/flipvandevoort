@@ -32,8 +32,9 @@
   --grid-columns: 12;
 }
 
-/* Colour variables */
+/* Colour */
 :root {
+  color-scheme: light dark;
   --bg-color: canvas;
   --txt-color: canvastext;
   --lnk-color: linktext;
