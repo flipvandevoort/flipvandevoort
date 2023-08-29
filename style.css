@@ -41,10 +41,6 @@
 }
 
 /* Global styles */
-html,
-body {
-  height: 100%;
-}
 
 body {
   /* Typography */
@@ -59,7 +55,8 @@ body {
 
 main {
   /* Layout */
-  height: 100%;
+  min-height: 100vh;
+  min-height: 100svh;
   max-width: var(--grid-max-width);
   padding: var(--grid-gutter);
   display: flex;
